@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif ;
+}
+/* Utilities */
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+/* .clearfix {
+  content: '';
+  display: table;
+  clear: both;
+} */
+.float-left {
+  float: left;
+}
+.w-50 {
+  width: 50%;
+}
+/* Prima riga header */
+.main-header {
+  background: #f5f8fa;
+  height: 80px;
+}
+.navbar-right {
+  text-align: right;
+}
+.navbar-right ul li ,
+.navbar-left ul li  {
+  display: inline-block;
+}
+/* inizio seconda linea col logo */
+.second-header {
+  background: white;
+  height: 80px;
+}
