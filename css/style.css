@@ -5,6 +5,7 @@
 }
 body {
   font-family: 'Roboto', sans-serif ;
+  background-color: #f5f8fa;
 }
 /* Utilities */
 .container {
@@ -32,6 +33,9 @@ body {
 .navbar-left li a {
   border-right: 1px solid black;
 }
+/* .navbar-left li a::after {
+  content: '|'
+} */
 .navbar-right {
   text-align: right;
 }
@@ -74,11 +78,77 @@ body {
   height: 80px;
   border-bottom: 1px solid gray;
 }
-.main-navbar ul li, {
-  display: inline-block;
-  list-style: none
+.main-navbar {
+  text-align: right;
 }
-.main-navbar ul li a,
- {
+.main-navbar ul li {
+  display: inline-block;
+  list-style: none;
+  line-height: 80px;
+  /* padding: 0 10px; */
+}
+.main-navbar ul li a {
   text-decoration: none;
+  color: #33475a;
+  font-weight: bold;
+}
+.logo {
+  margin-top: 23px;
+}
+.fa-sort-down {
+  display: inline-block;
+  color: #0091ae;
+  margin-bottom: 10px;
+}
+/* INIZIO CONTENUTO principale della pagina */
+.main-content {
+  width: 100%;
+  height: 680px;
+  background-image: url('../img/jumbotron.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.contenuto {
+  width: 40%;
+  margin-top: 50px;
+}
+.btn-big {
+  display: inline-block;
+  background: #ff7a59;
+  padding: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+.contenuto h1,
+.contenuto p {
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+/* Seconda sezione: DADI */
+.dadi {
+  height: 500px;
+}
+.logo-dado {
+  margin-top: 40px;
+  text-align: center;
+}
+.logo-dado img {
+  width: 320px;
+  height: auto;
+}
+.testo-dadi {
+  text-align: center;
+}
+.testo-dadi h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.libri {
+  margin: 0 auto;
+  width: 70%;
+  height: 410px;
+  background: white;
 }
