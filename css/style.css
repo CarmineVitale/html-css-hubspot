@@ -44,6 +44,7 @@ body {
   display: inline-block;
   list-style: none;
   line-height: 80px;
+  padding: 0 10px;
 }
 .navbar-right ul li a {
   text-decoration: none;
@@ -54,6 +55,10 @@ body {
   text-decoration: none;
   color: black;
   padding: 0 20px;
+}
+.fa-search {
+  padding: 10px 20px;
+  color: #00a4bd;
 }
 /* Button */
 .btn {
@@ -79,20 +84,22 @@ body {
   border-bottom: 1px solid gray;
 }
 .main-navbar {
+  width: 70%;
   text-align: right;
 }
 .main-navbar ul li {
   display: inline-block;
   list-style: none;
   line-height: 80px;
-  /* padding: 0 10px; */
 }
 .main-navbar ul li a {
   text-decoration: none;
   color: #33475a;
   font-weight: bold;
+  padding: 0 22px;
 }
 .logo {
+  width: 30%;
   margin-top: 23px;
 }
 .fa-sort-down {
