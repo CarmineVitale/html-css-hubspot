@@ -11,11 +11,12 @@ body {
   width: 70%;
   margin: 0 auto;
 }
-/* .clearfix {
+
+.clearfix {
   content: '';
   display: table;
   clear: both;
-} */
+}
 .float-left {
   float: left;
 }
@@ -26,6 +27,10 @@ body {
 .main-header {
   background: #f5f8fa;
   height: 80px;
+  border-bottom: 1px solid gray;
+}
+.navbar-left li a {
+  border-right: 1px solid black;
 }
 .navbar-right {
   text-align: right;
@@ -33,9 +38,47 @@ body {
 .navbar-right ul li ,
 .navbar-left ul li  {
   display: inline-block;
+  list-style: none;
+  line-height: 80px;
+}
+.navbar-right ul li a {
+  text-decoration: none;
+  color: red;
+  padding: 0 20px;
+}
+.navbar-left ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 0 20px;
+}
+/* Button */
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid #ff7a59;
+  line-height: 40px;
+  background: white;
+}
+.btn-orange {
+  background: #ff7a59;
+}
+.navbar-right .btn {
+  color: #ff7a59;
+}
+.navbar-right .btn-orange {
+  color: white;
 }
 /* inizio seconda linea col logo */
 .second-header {
   background: white;
   height: 80px;
+  border-bottom: 1px solid gray;
+}
+.main-navbar ul li, {
+  display: inline-block;
+  list-style: none
+}
+.main-navbar ul li a,
+ {
+  text-decoration: none;
 }
