@@ -172,7 +172,22 @@ body {
 }
 .libro-testo {
   width: 60%;
+  padding-top: 60px;
   }
+.libro-testo h2,
+.libro-testo p,
+.libro-testo h3 {
+    padding-bottom: 20px;
+}
+.libro-testo li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 25px;
+}
+.fa-check-circle {
+  color: #ff7a59;
+  padding: 0 9px;
+}
 .libro-logo a {
   margin-top: 40px;
 }
@@ -185,19 +200,87 @@ body {
 .col-sx,
 .col-center,
 .col-dx {
+  height: 550px;
   width: 30%;
-  height: 400px;
+  padding: 10px 20px;
   background-color: white;
+  text-align: center;
 }
 .colonne .col-sx,
 .colonne .col-center {
   margin-right: 5%;
+}
+.colonne p {
+  font-size: 14px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid grey;
+  height: 100px;
+}
+
+.colonne img {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: 150px;
+}
+.colonne li {
+  list-style: none;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.colonne h3 {
+  margin-bottom: 10px;
+}
+.colonne h5 {
+  margin-bottom: 10px;
+}
+.colonne a {
+  margin-top: 20px;
 }
 /* Sezione Learn & Grow */
 #learn {
   padding-top: 40px;
   background: #00b8a9;
   height: 400px;
+  color: white;
+  text-align: center;
+}
+#learn h2 {
+  font-size: 28px;
+  padding-bottom: 25px;
+}
+#learn p {
+  font-size: 17px;
+}
+#learn .col1,
+#learn .col2,
+#learn .col3,
+#learn .col4 {
+  border-bottom: 1px solid white;
+}
+#learn .col1,
+#learn .col2,
+#learn .col3,
+#learn .col5,
+#learn .col6,
+#learn .col7 {
+  border-right: 1px solid white;
+}
+
+#learn .col5,
+#learn .col6,
+#learn .col7,
+#learn .col8 {
+  padding-top: 20px;
+}
+#learn h3 {
+  font-size: 32px;
+}
+
+#learn boxes p {
+  font-size: 18px;
 }
 .boxes {
   padding-top: 40px;
