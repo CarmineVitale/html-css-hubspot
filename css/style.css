@@ -13,7 +13,7 @@ body {
   margin: 0 auto;
 }
 
-.clearfix {
+.clearfix::after {
   content: '';
   display: table;
   clear: both;
@@ -23,6 +23,10 @@ body {
 }
 .w-50 {
   width: 50%;
+}
+.w-25 {
+  width: calc(100% / 4);
+  height: 100px;
 }
 /* Prima riga header */
 .main-header {
@@ -153,6 +157,7 @@ body {
   font-size: 35px;
   margin-bottom: 20px;
 }
+/* Sezione libro aperto */
 .libri {
   margin: 0 auto;
   width: 70%;
@@ -170,4 +175,55 @@ body {
   }
 .libro-logo a {
   margin-top: 40px;
+}
+/* Sezione 3 colonne */
+.colonne {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.col-sx,
+.col-center,
+.col-dx {
+  width: 30%;
+  height: 400px;
+  background-color: white;
+}
+.colonne .col-sx,
+.colonne .col-center {
+  margin-right: 5%;
+}
+/* Sezione Learn & Grow */
+#learn {
+  padding-top: 40px;
+  background: #00b8a9;
+  height: 400px;
+}
+.boxes {
+  padding-top: 40px;
+}
+
+/* Sezione clienti */
+#clients {
+  background: red;
+  height: 100px;
+}
+#clients .col-sin {
+  width: 40%;
+}
+#clients .col-destra {
+  width: 60%
+}
+/* Sezione con immagine signorina */
+
+
+/* FOOTER */
+.main-footer {
+  background: #33475b;
+  height: 300px;
+}
+/* Debug */
+.boxx {
+  margin-top: 30px;
+  background: white;
 }
