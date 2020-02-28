@@ -288,8 +288,8 @@ body {
 
 /* Sezione clienti */
 #clients {
-  background: red;
-  height: 100px;
+  margin-top: 50px;
+  padding-bottom: 81px;
 }
 #clients .col-sin {
   width: 40%;
@@ -297,9 +297,46 @@ body {
 #clients .col-destra {
   width: 60%
 }
+#clients h3 {
+  font-size: 30px;
+  font: #33475b;
+  padding-bottom: 20px;
+}
+#clients p {
+  width: 268px;
+}
+#clients img {
+  height: auto;
+  width: 100px;
+  margin: 12px;
+}
+.col-destra {
+  text-align: right;
+}
+
 /* Sezione con immagine signorina */
-
-
+#grow-starts img {
+  height: 300px;
+  width: auto;
+}
+#grow-starts h3 {
+  font-size: 30px;
+  font: #33475b;
+  padding-bottom: 20px;
+}
+#grow-starts p {
+  width: 425px;
+  line-height: 30px;
+}
+#grow-starts h5 {
+  font-size: 12px;
+}
+#grow-starts a {
+  margin: 20px 0;
+}
+.colonnadestra {
+  text-align: right;
+}
 /* FOOTER */
 .main-footer {
   background: #33475b;
